@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 5;
 }
@@ -17,16 +13,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
-  padding: 10px;
+  padding: 40px;
 }
 .nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
-  margin-right: 150px;
-  gap: 3rem;
+  position: relative;
+  gap: 1rem;
 }
 .nav a {
   color: inherit;
@@ -38,11 +33,11 @@ body {
 }
 
 .navbar-logo {
-  border-width: 2px;
+  position: absolute;
+  top: 1.3rem;
+  left: 40px;
   border-color: #4682b4;
-  top: 200px;
-  width: 140px;
-  padding-left: 30px;
+  width: 100px;
 }
 
 .navbar-ul {
@@ -54,7 +49,6 @@ body {
   line-height: 5px;
   text-transform: capitalize;
 
-  margin: 0 1rem;
   cursor: pointer;
 }
 
@@ -66,7 +60,6 @@ body {
   font-size: 25px;
   line-height: 5px;
   text-transform: capitalize;
-  margin: 0 1rem;
   cursor: pointer;
 }
 
@@ -74,6 +67,55 @@ body {
   background-color: rgb(73, 255, 18);
 }
 
-.nav li:hover {
-  background-color: rgb(25, 22, 216);
+.navbar-ul :hover {
+  background-color: black;
+}
+.navbar-sign :hover {
+  background-color: black;
+}
+
+@media (max-width: 1200px) {
+  .navbar-ul {
+    font-size: 22px;
+  }
+  .navbar-sign {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .navbar-ul {
+    font-size: 19px;
+  }
+  .navbar-sign {
+    font-size: 19px;
+  }
+  .nav ul {
+    gap: 0.1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar-ul {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav ul {
+    gap: 0rem;
+    left: 100px;
+  }
+  .navbar-sign {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 700px) {
+  .nav ul {
+    left: 120px;
+  }
+}
+
+@media (max-width: 650px) {
 }

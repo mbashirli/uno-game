@@ -9,17 +9,18 @@ const Home = () => {
         <img src={UNO_Reverse_Card} className="uno-reverse-card"></img>
         <ul className="buttons">
           <li className="button">
-            <a href="#">
-              <span className="join-server">Join Server</span>
+            <a href="#" className="join-server">
+              Join Server
             </a>
           </li>
           <li className="button">
-            <a href="#">
-              <span className="create-server">Create Server</span>
+            <a href="#" className="create-server">
+              Create Server
             </a>
           </li>
         </ul>
       </div>
+      <div className="filler"></div>
     </div>
   );
 };

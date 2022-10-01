@@ -1,0 +1,60 @@
+.container {
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  position: relative;
+  size: fixed;
+  top: 2rem;
+  margin: auto;
+  width: 40%;
+  height: auto;
+  text-align: center;
+  border: 2px solid rgb(4, 4, 90);
+  padding: 10px;
+  top: 70px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.filler {
+  padding-bottom: 10%;
+}
+.title {
+  margin: 20px;
+}
+
+.text {
+  margin: 20px;
+}
+.playing_uno {
+  margin: auto;
+  max-width: 32rem;
+}
+
+.container h4 {
+  margin: 20px;
+}
+
+.container li {
+  margin-left: 25%;
+  margin-top: 30px;
+  width: 50%;
+
+  list-style-type: square;
+}
+
+@media (max-width: 1500px) {
+  .playing_uno {
+    max-width: 20rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .playing_uno {
+    max-width: 15rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .playing_uno {
+    max-width: 10rem;
+  }
+}
