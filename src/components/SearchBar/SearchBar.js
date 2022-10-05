@@ -1,0 +1,25 @@
+import Reacts from "react";
+import "./SearchBar.css";
+import { Link } from "react-router-dom";
+
+export default function SearchBar({ placeholder, data }) {
+  return (
+    <div className="search">
+      <h1 className="search-text">Search usernames: </h1>
+      <div className="search-inputs">
+        <input type="text" placeholder={placeholder} />
+        <div className="data-result">
+          {data.map((value, key) => {
+            return (
+              <div className="data-item">
+                <Link to="search-section">
+                  <p>{value.username}</p>
+                </Link>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+}

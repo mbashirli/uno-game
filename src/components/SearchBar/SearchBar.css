@@ -1,0 +1,67 @@
+.search {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.search input {
+  background-color: rgb(255, 255, 255);
+  border: 2px;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 18px;
+  padding: 10px;
+  height: 30px;
+  width: 300px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+}
+
+input:focus {
+  outline: none;
+}
+
+.data-result {
+  margin-top: 5px;
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.data-result::-webkit-scrollbar {
+  display: none;
+}
+
+.data-item {
+  width: 100%;
+  height: 30px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  color: black;
+  background-color: rgb(237, 237, 237);
+}
+
+.data-item p {
+  margin-left: 15px;
+}
+
+.data-item p {
+  margin-left: 10px;
+}
+
+.data-item {
+  text-decoration: none;
+}
+
+.data-item:hover {
+  background-color: lightgrey;
+}
+
+#clearBtn {
+  cursor: pointer;
+}
