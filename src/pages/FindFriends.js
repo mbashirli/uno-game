@@ -10,7 +10,7 @@ const FindFriends = () => {
         <div className="search-bar-wrapper">
           <SearchBar placeholder="ex: lord-voldemort" data={UserData} />
         </div>
-        <div className="filler"></div>
+        <div className="find-friends-filler"></div>
       </div>
     </div>
   );
