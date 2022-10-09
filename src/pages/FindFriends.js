@@ -5,7 +5,7 @@ import UserData from "../UserData.json";
 
 const FindFriends = () => {
   return (
-    <div className="wrapper">
+    <div className="find-friends-wrapper">
       <div className="search-bar">
         <div className="search-bar-wrapper">
           <SearchBar placeholder="ex: lord-voldemort" data={UserData} />

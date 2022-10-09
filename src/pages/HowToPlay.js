@@ -6,7 +6,6 @@ const HowToPlay = () => {
   return (
     <div className="content-wrapper">
       <div className="container">
-        <syle src="./HowToPlay.css"></syle>
         <link
           href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
           rel="stylesheet"

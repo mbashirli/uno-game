@@ -12,6 +12,8 @@ import Home from "./pages/Home";
 import ContactUs from "./pages/ContactUs";
 import HowToPlay from "./pages/HowToPlay";
 import FindFriends from "./pages/FindFriends";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
             <Route path="/HowToPlay" element={<HowToPlay />} />
             <Route path="/FindFriends" element={<FindFriends />} />
             <Route path="/ContactUs" element={<ContactUs />} />
+            <Route path="/SignIn" element={<SignIn />} />
+            <Route path="/SignUp" element={<SignUp />} />
           </Routes>
           <Footer />
         </BrowserRouter>
